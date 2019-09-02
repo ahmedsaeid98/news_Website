@@ -1,0 +1,66 @@
+
+.menu
+{
+    height:40px;
+    width:45px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid #fff;
+}
+.line
+{
+    background-color: #fff;
+    width:30px;
+    height:3px;
+    margin: 2px;
+    border-radius: 2px; 
+}
+.menu:hover{
+    cursor: pointer;
+    background-color: #999;
+}
+.fixed-top
+{
+    z-index: 10;
+}
+
+.sidenav
+{
+    display: block;
+    background-color: #333;
+    height: 100%;
+    position: fixed;
+    left:0px;
+    top:0px;
+    width: 20%;
+    z-index:100;
+}
+.dishow
+{
+    display: none;
+}
+.list-group-item.active
+{
+    border:0px;
+    background-color:#444;
+}
+.list-group-item
+{
+    background-color:#333;
+    color:#fff;
+}
+
+.me7
+{
+    margin-top:80px;
+}
+.new
+{
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
