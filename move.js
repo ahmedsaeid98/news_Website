@@ -50,8 +50,7 @@ ajexNew();
 function ajexNew()
 {
     var req=new XMLHttpRequest();
-    req.setRequestHeader('X-Requested-With', 'XMLHttpRequest'); 
-    req.setRequestHeader('Access-Control-Allow-Origin', '*');
+
     var url="https://newsapi.org/v2/top-headlines?country="+country+"&category="+category+"&apiKey=ace77e66d610451ea137f8d2eb6b8d47";
 
     req.open("GET",url);
